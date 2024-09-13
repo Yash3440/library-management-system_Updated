@@ -1,0 +1,36 @@
+Library Management System
+
+This is a Library Management System project built using Node.js, Express, and MongoDB. The system allows users to manage books and authors, including creating, reading, updating, and deleting (CRUD) operations.
+
+
+Prerequisites
+Node.js installed on your system
+MongoDB installed on your system or a MongoDB Atlas cluster
+Installation
+Clone the repository: git clone https://github.com/Yash3440/git
+Install dependencies: npm install
+
+
+const MongoClient = require('mongodb').MongoClient;
+
+const url = 'mongodb+srv://connectyash:yash3440@cluster1.lzkwo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
+
+
+Start the server: node server.js
+Open a web browser and navigate to http://localhost:5000
+Features
+Manage books: create, read, update, and delete books
+Manage authors: create, read, update, and delete authors
+Display book and author information
+Folder Structure
+client: client-side code (HTML, CSS, JavaScript)
+server: server-side code (Node.js, Express)
+models: database models (MongoDB)
+routes: API routes (Express)
+database: database connection and configuration
+public: public assets (images, CSS, JavaScript files)
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+GeeksforGeeks for the inspiration and reference implementation.
